@@ -1,0 +1,46 @@
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.home-banner-container {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    padding: 40px;
+    height: calc(100vh - 60px);
+  }
+
+  .home-banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    width: 370px;
+  }
+
+  .home-banner-container h1 {
+    font-size: 48px;
+    letter-spacing: -0.015em;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .home-banner-container p {
+    font-size: 22px;
+    letter-spacing: -0.015em;
+    color: #f2f2f2;
+    font-style: normal;
+    font-weight: 400;
+    width: 320px;
+  }
+
+  .home-banner-container svg {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,10 @@
+$theme-colors: (
+  'primary': #ffc700,
+  'danger': #ff5555,
+);
+
+$body-bg: #525252;
+$body-color: #000000;
+$input-focus-bg: #fefefe;
+
+@import '~bootstrap/scss/bootstrap.scss';
