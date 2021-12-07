@@ -1,0 +1,22 @@
+.main-nav {
+    padding-left: 10px;
+    min-height: 70px;
+    letter-spacing: -0.015em;
+    background-color: #ffc700;
+  }
+  
+  .main-nav h4 {
+    color: #000000;
+  }
+  
+  .nav-login-logout {
+    width: 100px;
+    height: 30px;
+    margin-right: 15px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  

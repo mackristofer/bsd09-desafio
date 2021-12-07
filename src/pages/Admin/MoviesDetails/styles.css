@@ -1,0 +1,147 @@
+.movie-details-container {
+    background: #525252;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.movie-img-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.movie-img-container img{
+    width: 80%;
+}
+
+.movie-details-container h1, h2, h4, h6, p {
+    color: #fff;
+    letter-spacing: -0.015em;
+    padding-left: 15px;
+}
+
+.movie-details-container h1 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.movie-details-container h2 {
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.movie-details-container h4 {
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+.movie-synopsis-container h2 {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.movie-synopsis-container h4 {
+    font-size: 0.6em;
+}
+
+.movie-details-container p {
+    font-weight: 400;
+    font-size: 0.5em;
+}
+
+.col-xl-6 {
+    background: #525252;
+
+}
+
+.movie-synopsis-container {
+    padding-bottom: 15px;
+}
+
+.review-container{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.review-card {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #6C6C6C;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+
+.details-card{
+    padding: 15px;
+    background: #6C6C6C;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+
+.container-details {
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.review-button {
+    margin-bottom: 15px;
+    width: 200px;
+    
+}
+
+.review-input::placeholder {
+    padding-left: 10px;
+    font-weight: normal;
+    font-size: 0.6em;
+    line-height: 22px;
+    text-align: left;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #9e9e9e;
+}
+
+@media(min-width:992px){
+    .movie-img-container img{
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .movie-synopsis-container {
+        margin-top: 30px;
+    }
+
+    .movie-details-container h1 {
+        font-size: 1.2em;
+    }
+    
+    .movie-details-container h2 {
+        font-size: 1em;
+    }
+    
+    .movie-details-container h4 {
+        font-size: 0.9em;
+    }
+    
+    .movie-synopsis-container h2 {
+        font-size: 1em;
+    }
+    
+    .movie-synopsis-container h4 {
+        font-size: 0.8em;
+    }
+    
+    .movie-details-container p {
+        font-size: 0.7em;
+    }
+
+    .review-input::placeholder {
+        font-size: 1em;
+    }
+}
+

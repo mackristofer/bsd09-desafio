@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-title {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.home-title h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+
+.home-item p {
+    padding-left: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+
+@media(min-width:992px){
+  .home-title {
+    margin-top: 30px;
+  }
+
+  .home-title h1 {
+    font-size: 2em;
+  }
+  
+  .home-item p {
+    font-size: 1.5em;
+  }
+}
