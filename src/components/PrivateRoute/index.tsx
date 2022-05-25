@@ -22,7 +22,7 @@ const PrivateRoute = ({ children, path, roles = [] }: Props) => {
         ) : !hasAnyRoles(roles) ? (
           <Redirect to="/movies" />
         ) : (
-          children
+        {children}
         )
       }
     />
